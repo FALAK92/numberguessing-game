@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    text-align: center;
+    background-color:rgb(46, 217, 223);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(224, 174, 174, 0.1);
+}
+h1{
+    color: purple;
+}
+p{
+    color: purple;
+    margin-top: 2px;
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    caret-color: purple;
+    border-radius: 5px;
+    border-color: purple;
+}
+
+button {
+    padding: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid purple;
+    background-color: #df87d8;
+    color:purple;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button.hidden {
+    display: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+#resultMessage {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#previousGuesses {
+    font-size: 14px;
+    color: #888;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+
